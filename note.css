@@ -1,0 +1,56 @@
+
+.head {
+    background: #c0c0c0;
+    width: 1000px;
+    height: 200px;
+    margin-left: 150px;
+}
+.space {
+    margin-left: 40px;
+}
+.addnote {
+    background: green;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    height: 40px;
+    width: 100px;
+
+}
+.note-app {
+    font-family: 'Noto Sans JP',sans-serif;
+    font-weight: lighter  ;
+}
+.clearnote {
+    margin-left: 2px;
+    
+}
+.notes-table {
+    width: 1000px;
+    margin-left: 150px;
+}
+.b {
+    display: flex;
+    justify-content: space-between;
+}
+.notes {
+    margin-left: 28px;
+}
+
+li {
+    display: flex;
+    width: 1000px;
+    margin-bottom: 20px;
+    word-break: break-word;
+    list-style-type: lower-roman ;
+}
+
+hr {
+    margin-left: 150px;
+    width: 1000px;
+    margin-top: -10px;
+}
+.edit {
+    margin-left: 150px;
+}
+
