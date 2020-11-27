@@ -1,4 +1,7 @@
 
+body {
+    counter-reset : section;
+}
 .head {
     background: #c0c0c0;
     width: 1000px;
@@ -42,7 +45,12 @@ li {
     width: 1000px;
     margin-bottom: 20px;
     word-break: break-word;
-    list-style-type: lower-roman ;
+    list-style-type: decimal ;
+}
+span::before {
+    counter-increment: section;
+    content: " " counter(section) ".  ";
+
 }
 
 hr {
